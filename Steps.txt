@@ -1,0 +1,30 @@
+Steps
+Step1: Data Collection, Cleaning, Processing
+1.Data Collection from Kaggle
+2.Importing datasets to Jupyter Notebook
+3.Calling all the datasets
+4.Look for uncleaned and unstructured data
+5.Clean and structure the data for analysis
+a. Remove null values or fill the null values with mean of the values present in the column
+Note: Null Values were present in df3,df7 and df8
+
+Step2: Visualization
+1.Used scatterplot to represent points scored by drivers from a particular position
+2.Used scatterplot to represent drivers who won from a particular position
+3.Used scatterplot to represent maximum points scored by a constructor
+4.Used scatterplot to represent grid start vs finish for Race
+5.Used scatterplot to represent grid start vs finish for Sprint Race
+
+Step3: Model Creation
+Model for Position change
+1.Drop columns which are not to be used for prediction(x)
+2.Use the column on which predictions are going to be made(y)
+3.Use of scikit learn package to import Linear Regression 
+4.import train test split module to split x and y datasets into training and testing datasets
+5.Using Linear Regression perform the prediction
+
+Step4: Anomaly Detection Model
+1.Combined results and status datasets
+2.removed null values present in the combined dataset
+3.Split the combined dataset into training and testing data to predict any anomalies happened during the race such as a collision, lap time shift, etc
+4. 
